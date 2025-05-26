@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Página de Libros</title>
+</head>
+<script src="script.js"></script>
+<body>
+
+  <header>
+    <nav class="menu">
+      <ul class="menu-opciones">
+        <li><a href="#">Quienes somos</a></li>
+        <li><a href="#">Buscar libro</a></li>
+        <li><a href="#">Lista de libros</a></li>
+      </ul>
+      <form class="busqueda-form">
+        <input type="text" placeholder="Buscar..." />
+        <button type="submit">🔍</button>
+      </form>
+    </nav>
+  </header>
+
+ 
+  <div class="banner-fondo"></div>
+
+  <main>
+    
+    <div class="bloque-horizontal">
+      <section id="quienes-somos">
+        <h2>¿Quiénes somos?</h2>
+        <p>
+          Somos una página que se dedica a buscar libros. Está acoplada a una base de datos en PHP, donde hay una lista para que puedas buscar tu libro de elección. El tipo de libros que puedes encontrar en esta página serán libros de categoría infantil, edad neonata.
+        </p>
+      </section>
+
+      <section id="perfil">
+        <h2>¿Quién soy?</h2>
+        <p>
+          Ingeniera de sistemas de 8 semestre, cuento con experiencia en desarrollo web, diseño de aplicación web.
+        </p>
+      </section>
+    </div>
+
+   <section id="acciones">
+  <form class="acciones-busqueda">
+    <input type="text" placeholder="Buscar libro..." />
+    <button type="submit">🔍</button>
+  </form>
+
+  <button>Lista de libros</button>
+  <button>Seleccionar</button>
+  <button>Eliminar</button>
+  
+  <div class="lista-libros">
+    <h3>Libros disponibles</h3>
+    <ul id="lista-disponibles">
+      
+    </ul>
+  </div>
+
+  <div class="libros-guardados">
+    <h3>Libros guardados</h3>
+    <ul id="lista-guardados"></ul>
+  </div>
+</section>
+
+
+  </main>
+
+</body>
+</html>
